@@ -1,0 +1,35 @@
+.btn {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    list-style: 1px;
+    text-decoration: none;
+    border: none;
+
+    &--yellow {
+        background: #FEDB3F;
+        color: black;
+        
+    
+
+    &:hover {
+        background: #FFD517;
+        color: black;
+        }
+    }
+    
+    &--transparent {
+        background: transparent;
+        color: #fff;
+        text-transform: none;
+        font-size: 18px;
+    
+        &:hover {
+            color: black;
+            background: transparent;
+            }
+    }
+}
+
