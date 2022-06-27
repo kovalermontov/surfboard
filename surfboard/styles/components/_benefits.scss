@@ -1,6 +1,7 @@
+
 .benefits__list {
     display: flex;
-    margin-top: 49px;
+    margin-top: rem(49px);
     justify-content: center;
 }
 
@@ -8,21 +9,22 @@
     flex: 1;
     padding: 0 3%;
     position: relative;
+    
 
     &:before {
         content: url("../../img/benefit/shape.png");
         position: absolute;
-        top: 30px;
-        right: -30px;
+        top: rem(30px);
+        right: rem(-30px);
         transform: translateХ(50%);
     }
 
     &:first-child {
-        padding-left: 67px;
+        padding-left: rem(67px);
     }
 
     &:last-child {
-        padding-right: 67px;
+        padding-right: rem(67px);
 
         &::before{
             display: none;

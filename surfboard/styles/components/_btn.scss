@@ -1,10 +1,10 @@
 .btn {
-    font-size: 19px;
+    font-size: rem(19px);
     font-weight: bold;
-    padding: 18px 35px;
+    padding: rem(18px) rem(35px);
     text-transform: uppercase;
-    border-radius: 100px;
-    list-style: 1px;
+    border-radius: rem(100px);
+    list-style: rem(1px);
     text-decoration: none;
     border: none;
 
@@ -24,7 +24,7 @@
         background: transparent;
         color: #fff;
         text-transform: none;
-        font-size: 18px;
+        font-size: rem(18px);
     
         &:hover {
             color: black;

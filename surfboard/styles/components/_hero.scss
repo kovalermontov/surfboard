@@ -1,36 +1,68 @@
 .hero {
     height: 100vh;
-    min-height: 652px;
+    min-height: rem(652px);
     background: url("../../img/hero/fon.png") center top / cover no-repeat;
     background-color: #196881;
+    
     color: #ffffff;
+
+    @include tablets {
+        background-position: right bottom 88%;
+    }
 }
 
 .hero__title-section {
     width: 46%;
     
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
+
 
 .hero__container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 24px 0 45px;
+    padding: rem(24px) 0 rem(45px);
 }
 
 .hero__main-title {
-    font-size: 48px;
+    font-size: rem(48px);
     line-height: 1.1;
     font-weight: bold;
-    margin-bottom: 15px;
-    width: 397px;
+    margin-bottom: rem(15px);
+    width: rem(496px);
     text-transform: uppercase;
+
+    
+    @include tablets {
+        width: rem(665px);
+    }
 }
 
 .hero__title-desc{
-    font-size: 21px;
-    margin-top: 17px;
-    margin-bottom: 60px;
+    font-size: rem(21px);
+    margin-top: rem(17px);
+    margin-bottom: rem(60px);
     padding-right: 10%;
+
+    @include tablets {
+        padding: 0 25%;
+    }
+
+
+}
+
+.hero__icons-section {
+    @include tablets {
+        display: none;
+    }
 }

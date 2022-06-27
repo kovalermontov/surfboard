@@ -1,12 +1,12 @@
 .interactive-avatar {
-    width: 80px;
-    height: 80px;
-    border: 6px solid transparent;
+    width: rem(80px);
+    height: rem(80px);
+    border: rem(6px) solid transparent;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
-    padding-right: 22px;
-    margin-right: -7px;
+    padding-right: rem(22px);
+    margin-right: rem(-7px);
 
     &--active {
         border-color:#FEDB3F;

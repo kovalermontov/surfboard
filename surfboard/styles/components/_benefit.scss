@@ -4,8 +4,8 @@
 
 .benefit__image-wrapper {
     display: inline-block;
-    width: 128px;
-    height: 128px;
+    width: rem(128px);
+    height: rem(128px);
     position: relative;
     background: #f2f5f4;
     border-radius: 50%;
@@ -13,8 +13,8 @@
 }
 
 .benefit__icon {
-    width: 68px;
-    height: 68px;
+    width: rem(68px);
+    height: rem(68px);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,8 +22,8 @@
 }
 
 .benefit__icon-human{
-    width: 43.83px;
-    height: 68px;
+    width: rem(43px);
+    height: rem(68px);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,6 +31,6 @@
 }
 
 .benefit__decs {
-    width: 310px;
-    height: 66px;
+    width: rem(321px);
+    height: rem(66px);
 }
